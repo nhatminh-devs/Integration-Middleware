@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://ecommerceapp-backend-bkwr.onrender.com/api";
 
   // Fetch databases on mount
   useEffect(() => {
